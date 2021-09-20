@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+} 
+.loading-scrin {
+	width: 100%;
+	height: 100vh;
+	background-image: url('AHM/ahm.jpg');
+	background-size: cover;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.loading {
+	width: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate{
+	to{
+		transform: rotate(360deg);
+	}
+}
+.loading span{
+	width: 42px;
+	height: 42px;
+	background-color: #E0FFFF;
+	margin: 4px;
+}
+.loading span:nth-child(1){
+	border-radius: 50% 50% 0 50%;
+	background-color: #FFFF00;
+	transform-origin: bottom right;
+}
+.loading span:nth-child(2){
+	border-radius: 50% 50% 50% 0;
+	background-color: #00FFFF;
+	transform-origin: bottom right;
+}
+.loading span:nth-child(3){
+	border-radius: 50% 0 50% 50%;
+	background-color: #7FFF00;
+	transform-origin: top right;
+}
+.loading span:nth-child(4){
+	border-radius: 0 50% 50%  50%;
+	background-color: #FF00FF;
+	transform-origin: top right;
+}
+h2 {
+	color: #fff;
+}

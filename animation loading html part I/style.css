@@ -1,0 +1,98 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url('img/AHM.jpg');
+	background-size: cover;
+}
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.box div {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 0px 6px;
+}
+.loading1 {
+	background: #FFFF00;
+	animation: loading1 1s infinite;
+}
+.loading2 {
+	background: #00FFFF;
+	animation: loading2 1s infinite;
+}
+.loading3 {
+	background: #FF7F50;
+	animation: loading3 1s infinite;
+}
+.loading4 {
+	background: #6A5ACD;
+	animation: loading4 1s infinite;
+}
+@keyframes loading1 {
+	25% {
+		transform: scale(1.2);
+	}
+	50% {
+		transform: scale(1);
+	}
+	75% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@keyframes loading2 {
+	25% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+	75% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@keyframes loading3 {
+	25% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1);
+	}
+	75% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@keyframes loading4 {
+	25% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1);
+	}
+	75% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.2);
+	}
+}
+h3 {
+	font-size: unset;
+	text-align: center;
+}
+h5 {
+	text-align: center;
+}
